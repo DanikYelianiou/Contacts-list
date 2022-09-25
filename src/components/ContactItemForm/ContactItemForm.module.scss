@@ -1,0 +1,22 @@
+.item__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+
+    .item__container_inner {
+        width: 50vw;
+        height: 50px;
+        border: 1px solid #000;
+        border-radius: 7px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+
+        .item__info, .item__btn {
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

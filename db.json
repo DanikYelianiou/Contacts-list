@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "email": "user1@gmail.com",
+      "password": "$2a$10$txqtz6WFKyK8oZcJaI4d0.zvGRwCDxGliDTHJRp0bf0TuuvhyRbzC",
+      "id": 6
+    }
+  ],
+  "contacts": [
+    {
+      "id": 2,
+      "firstName": "Thor",
+      "lastName": "Odinson",
+      "phoneNumber": "123456789"
+    },
+    {
+      "firstName": "Loki",
+      "lastName": "Odinson",
+      "phoneNumber": "4564131456",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+$orange: rgb(255, 119, 0);
+$white: rgb(255, 255, 255);
+$red: red;
+$green: green;
+$blue: rgb(78, 78, 255);
+
+.button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $orange;
+    color: $white;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $white;
+        color: $orange;
+    }
+}
+
+.button_delete {
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: $red;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $white;
+        color: $red;
+        border: 2px solid $red;
+    }
+}
+
+.button_add {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: $green;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $white;
+        color: $green;
+        border: 2px solid $green;
+    }
+}
+
+.button_update {
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: $blue;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $white;
+        color: $blue;
+        border: 2px solid $blue;
+    }
+}
+
+.button_update_contact {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: $blue;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $white;
+        color: $blue;
+        padding: 13px;
+        border: 2px solid $blue;
+    }
+}

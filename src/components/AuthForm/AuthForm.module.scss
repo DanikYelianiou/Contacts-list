@@ -1,0 +1,30 @@
+$black: rgb(0, 0, 0);
+$light-gray: rgb(218, 218, 218);
+
+.authContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: $light-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .auth {
+
+        &__inner {
+            width: 100%;
+            max-width: 340px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            font-size: 22px;
+            color: $black;
+            text-transform: uppercase;
+        }
+    }
+}
